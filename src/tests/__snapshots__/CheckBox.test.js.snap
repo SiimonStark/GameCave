@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox should match snapshop 1`] = `
+<div
+  className="genre-container"
+>
+  <label>
+    <input
+      onChange={[MockFunction]}
+      type="checkbox"
+    />
+    <div
+      className="faux-box"
+    />
+    <p
+      className="genre-title"
+    />
+  </label>
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LuckyBar should match snapshot 1`] = `
+<div
+  className="lucky-bar search-section"
+>
+  <button
+    className="button lucky"
+    onClick={[Function]}
+  >
+    RANDOM
+  </button>
+</div>
+`;

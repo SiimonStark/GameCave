@@ -1,0 +1,32 @@
+.button {
+  position: relative;
+  background: none;
+  transition: $transition;
+  @include fullSize();
+  @include font($cyan, 2vw, 700);
+  @include roundedBox($cyan, 0, 2px, 0, 0, 0, 0);
+}
+
+.button:hover {
+  background: $cyan;
+  color: white;
+  cursor: pointer;
+}
+
+.lucky {
+  @include roundedBox($cyan, 0, 0, 0, 48px, 0, 0);
+  border-width: 0 0 0 2px;
+}
+
+.current:hover:after {
+  border-color: white;
+}
+
+.current:after {
+  content: "";
+  position: absolute;
+  bottom: 10px; left: 15px; right: 15px;
+  transition: $transition;
+  @include glow(-4px);
+  @include roundedBox($neonPurple, 3px, 0, 5px, 5px, 5px, 5px);
+}

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameCard should match snapshop 1`] = `
+<div
+  className="game-card"
+>
+  <section
+    className="img"
+  >
+    <div
+      className="gamecover"
+      style={
+        Object {
+          "backgroundImage": "url(https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Dark_Souls_Cover_Art.jpg/220px-Dark_Souls_Cover_Art.jpg)",
+          "backgroundSize": "cover",
+        }
+      }
+    />
+  </section>
+  <section
+    className="text-container"
+  >
+    <h4>
+      Dark Souls
+    </h4>
+    <p
+      className="game-more"
+      onClick={[Function]}
+    >
+      More Info..
+    </p>
+  </section>
+  <section
+    className="btn"
+  >
+    <button
+      className="add-to-library false"
+      onClick={[Function]}
+    >
+       + 
+    </button>
+  </section>
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar should match snapshot 1`] = `
+<div
+  className="search-bar search-section"
+>
+  <input
+    className="search"
+    maxLength="25"
+    onChange={[Function]}
+    placeholder="Search a game title!"
+  />
+</div>
+`;

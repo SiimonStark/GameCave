@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiBar should match snapshot 1`] = `
+<div
+  className="multi-bar search-section"
+>
+  <button
+    className="button multi-all"
+    onClick={[Function]}
+  >
+     MULTIPLAYER
+    <p>
+      ANY
+    </p>
+  </button>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshop 1`] = `
+<div
+  className="app"
+>
+  <Header />
+  <GameShelf
+    games={Array []}
+    genres={Array []}
+    genresToFilter={Array []}
+    isLucky={false}
+    mainGenres={Array []}
+    multiplayerToggle={null}
+    platforms={Array []}
+    platformsToFilter={Array []}
+    titleFilter=""
+  />
+  <Footer
+    games={Array []}
+    genres={Array []}
+    genresToFilter={Array []}
+    isLucky={false}
+    mainGenres={Array []}
+    multiplayerToggle={null}
+    platforms={Array []}
+    platformsToFilter={Array []}
+    titleFilter=""
+    updateChecks={[Function]}
+    updateState={[Function]}
+  />
+</div>
+`;

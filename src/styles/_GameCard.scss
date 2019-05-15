@@ -1,0 +1,83 @@
+.game-card {
+  background-color: hsla(0, 0%, 31%, 0.8);
+  @include roundedBox(none, 0, 0, 20px, 20px, 20px, 20px); 
+  height: 90px;
+  width: 300px;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  position: relative;
+  transition: $transition;
+}
+
+.game-card {
+  &:hover {
+    cursor: pointer;
+    @include glow(4px);
+    h4 {
+      color: $neonPurple;
+    }
+  }
+}
+
+.img {
+  @include flexCenter();
+  padding: 0 5px;
+}
+
+.gamecover {
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+}
+
+.text-container {
+  width: 100%;
+  word-wrap: break-word;
+  letter-spacing: 1.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-container h4 {
+  margin: 5px;
+  font-size: 18px;
+  transition: $transition;
+}
+
+.game-more {
+  width: 100%;
+  margin: 0 0 5px 5px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.game-more:hover {
+  color: $neonPurple;
+  text-decoration: underline;
+}
+
+.add-to-library {
+  background: hsla(0, 0%, 0%, 0.2);
+  color: white;
+  font-size: 25px;
+  height: 100%;
+  width: 45px;
+  transition: all .2s ease;
+  @include roundedBox(white, 0, 0, 0, 20px, 20px, 0);
+}
+
+button.true {
+  background: $cyan;
+}
+
+.add-to-library:hover {
+  background-color: $neonPurple;
+  cursor: pointer;
+}
+
+.add-to-library:active,
+.text-container p:active {
+  opacity: 0.5;
+}

@@ -1,0 +1,26 @@
+html { @include fullSize(); }
+
+body { 
+  @include fullSize(); 
+  background: black;
+  font-family: 'Audiowide', cursive; 
+}
+
+#root { @include fullSize(); }
+
+* { 
+  box-sizing: border-box; 
+  outline: none; 
+}
+
+.app {
+  @include fullSize();
+  position: fixed;
+  background: url("../imgs/helmet.gif");
+  background-size: cover;
+}
+
+input,
+button {
+  font-family: 'Audiowide', cursive;
+}

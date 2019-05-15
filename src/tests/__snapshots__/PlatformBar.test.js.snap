@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlatformBar should match snapshot 1`] = `
+<div
+  className="console-bar search-section"
+  onBlur={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <form
+    className="platform-check hide"
+    onBlur={[Function]}
+    tabIndex="0"
+  >
+    <CheckBox
+      class="platformsToFilter check-box"
+      key="0"
+      name="PS3"
+    />
+    <CheckBox
+      class="platformsToFilter check-box"
+      key="1"
+      name="PS4"
+    />
+    <CheckBox
+      class="platformsToFilter check-box"
+      key="2"
+      name="XBOX"
+    />
+  </form>
+  <button
+    className="button current"
+    onClick={[Function]}
+  >
+    PLATFORM
+  </button>
+</div>
+`;
